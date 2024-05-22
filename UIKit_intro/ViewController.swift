@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func gotoCards(_ sender: UIButton) {
+        performSegue(withIdentifier: "gotoCards", sender: nil)
+    }
+    @IBAction func buttonPress(_ sender: UIButton) {
+        performSegue(withIdentifier: "gotocolors", sender: nil)
+    }
+    
 }
 
